@@ -1,0 +1,31 @@
+#countryArea{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.singleCountry{
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    color: hotpink;
+    padding: 50px;
+    background-color: cornsilk;
+    box-shadow: 5px 5px 14px black;
+}
+
+.flagImg{
+    width: 250px;
+    max-width: 100%;
+    margin: auto;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+.area{
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
